@@ -2,6 +2,8 @@ This program converts ACII formated hexcode from an input file into the
 corresponding integer values and writes them to the output file.
 It uses Linux syscalls.
 
+usage: htoi [input file] [output file] (without brackets)
+
 ### Syntax
 * A hexcode has a minimum length of 1 ASCII encoded character and a maximum
   length of 16 ASCII encoded characters.
