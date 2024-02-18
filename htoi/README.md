@@ -47,5 +47,5 @@ is possible to write in lowercase a-f too.
 
 Every instruction is written in its own line. The first line of comment is the
 breakdown of every part of the instruction in my own naming convention. (see
-intel-opcodes for more information). The second line describes what the
-instruction does.
+from-scratch/intel-opcodes for more information). The second line describes what
+the instruction does.
