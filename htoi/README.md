@@ -1,3 +1,5 @@
+## Information
+
 This program converts ACII formated hexcode from an input file into the
 corresponding integer values and writes them to the output file.
 It uses Linux syscalls.
@@ -7,6 +9,7 @@ It uses Linux syscalls.
 * **htoi.hex**   The hexcode of the program formatted so the program will
                  output itself when given as an input file.
 * **htoi**       The program as an ELF binary using Linux syscalls.
+* **README.md**  This file.
 
 usage: htoi [input file] [output file] (without brackets)
 
