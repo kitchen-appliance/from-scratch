@@ -7,8 +7,9 @@ It is written in little endian x86-64 hexcode and uses x86-64 Linux syscalls.
 ### Files
 
 * **htoi.hex**   The hexcode of the program formatted so the program will
-                 output itself when given as an input file.
-* **htoi**       The program as an ELF binary using Linux syscalls.
+                 output itself when given as an input file. (23571 Bytes long)
+* **htoi**       The program as an ELF binary using Linux syscalls. (1097 Bytes
+                 long)
 * **README.md**  This file.
 
 usage: htoi [input file] [output file] (without brackets)
