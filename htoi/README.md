@@ -28,14 +28,14 @@ For details please read htoi.hex.
 ### ELF program header table
 
 1. Program code (permission to read and execute)
-   * Virtual address: 4001B8 (400000 + file offset 1B8)
+   * Virtual address: 0x4001B8 (0x400000 + file offset 0x1B8)
    * Length : 657 Bytes
    * Maps the executable code from the file to memory
 2. Read-only data (permission to read)
-   * Virtual address: 4010E8 (401000 + file offset E8)
+   * Virtual address: 0x4010E8 (0x401000 + file offset 0xE8)
    * Length : 209 Bytes
    * Maps the read-only data (error messages) to memory
 3. Read-write data (permission to read and write)
-   * Virtual address: 402000
+   * Virtual address: 0x402000
    * Length: 4096 Bytes (one page)
    * Reserves one page of data for stat structure and output
