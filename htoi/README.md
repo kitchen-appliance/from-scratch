@@ -39,3 +39,13 @@ For details please read htoi.hex.
    * Virtual address: 0x402000
    * Length: 4096 Bytes (one page)
    * Reserves one page of data for stat structure and output
+
+### Code
+
+The hexcode in htoi.hex is written using only digits and uppercase A-F, but it
+is possible to write in lowercase a-f too.
+
+Every instruction is written in its own line. The first line of comment is the
+breakdown of every part of the instruction in my own naming convention. (see
+intel-opcodes for more information). The second line describes what the
+instruction does.
